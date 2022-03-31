@@ -3,7 +3,12 @@ package Assignments;
 public class myInitials {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println(""
+				+ "    /\\        /   |  \r\n"
+				+ "   /  \\      /    |  \r\n"
+				+ "  /    \\    /     |  \r\n"
+				+ " /      \\  /      |  \r\n"
+				+ "/        \\/       |________  \r\n");
 
 	}
 
