@@ -3,6 +3,19 @@ package Assignments;
 public class BingoCard 
 {
 
+	/*
+
+	Program: BingoCard.java          Date: April 6th 
+
+
+	Author: Naomi Lockerbie  
+	School: CHHS
+	Course: Computer Science 10
+	
+
+	*/
+	
+	
 	public static void main(String[] args) 
 	{
 		System.out.println(""
@@ -20,5 +33,14 @@ public class BingoCard
 				+ "\r\n");
 
 	}
-
 }
+/* Screen Dump
+
+B     I     N     G     O
+11    28    36    58    70
+2     17    34    50    62
+6     23    Free  49    73
+14    27    39    54    65
+4     19    42    52    69
+
+ */
