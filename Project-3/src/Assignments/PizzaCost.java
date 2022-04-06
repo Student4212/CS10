@@ -3,7 +3,17 @@ import java.util.*;
 
 public class PizzaCost 
 {
+	/*
 
+	Program: PizzaCost.java          Date: April 6th 
+
+
+	Author: Naomi Lockerbie  
+	School: CHHS
+	Course: Computer Science 10
+	
+
+	*/
 	public static void main(String[] args) 
 	{
 		Scanner myObj = new Scanner(System.in); 
@@ -19,3 +29,10 @@ public class PizzaCost
 	}
 
 }
+/* Screen Dump
+
+Enter Pizza Diameter in Whole Inches
+8
+It costs $4.95
+
+ */
