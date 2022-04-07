@@ -1,6 +1,6 @@
 package Assignments;
 import java.util.*;
-public class Assign1 {
+public class Assign2 {
 
 
 		/*
