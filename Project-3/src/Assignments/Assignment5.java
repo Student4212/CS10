@@ -1,10 +1,10 @@
 package Assignments;
 
-public class BluePelicanJava 
+public class Assignment5 
 {
 	/*
 
-	Program: BluePelicanJava.java          Date: April 6th 
+	Program: Assignment5.java          Date: April 6th 
 
 
 	Author: Naomi Lockerbie  
@@ -18,7 +18,7 @@ public class BluePelicanJava
 		 int first = 79 + 3 * (4 + 82 - 68) - 7 +19;
 		 int second = (179 +21 +10) / 7 + 181; 
 		 int third = 10389 * 56 * 11 + 2246; 
-		 System.out.println("79 + 3 * (4 + 82 - 68) - 7 + 19 =" + first + "\r\n"
+		 System.out.println("79 + 3 * (4 + 82 - 68) - 7 + 19 = " + first + "\r\n"
 		 		+ "(179 + 21 + 10) / 7 + 181 = " + second + "\r\n"
 		 		+ "10389 * 56 * 11 + 2246 = " + third);
 	}
