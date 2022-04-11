@@ -4,7 +4,17 @@ import java.util.Scanner;
 
 public class Assignment8Part1 
 {
+	/*
 
+	Program: Assignmnet8Part1.java          Date: April 11th 
+
+
+	Author: Naomi Lockerbie  
+	School: CHHS
+	Course: Computer Science 10
+	
+
+	*/
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -18,3 +28,11 @@ public class Assignment8Part1
 	}
 
 }
+/* Screen Dump
+
+Enter a two digit number
+13
+The first digit is: 1
+The second digit is: 3
+
+ */
