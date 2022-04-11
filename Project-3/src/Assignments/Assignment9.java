@@ -38,8 +38,6 @@ public class Assignment9
 }
 
 /* Screen Dump
-
-		/* Screen Dump
 		 
 Whats your name!
 naomi
@@ -50,6 +48,3 @@ How old are you?
 
 		 
 */
-
- 
- */
