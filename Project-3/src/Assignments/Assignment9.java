@@ -36,15 +36,17 @@ public class Assignment9
 	}
 
 }
-
 /* Screen Dump
-		 
-Whats your name!
-naomi
-naomi
-How old are you?
-2
-2
 
-		 
-*/
+Enter an integer
+7
+Enter a second integer
+18
+7 / 18 = 0
+7 % 18 = 7
+18 / 7 = 2
+18 % 7 = 4
+
+ */
+
+
