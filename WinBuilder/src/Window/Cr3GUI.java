@@ -15,7 +15,8 @@ import javax.swing.JInternalFrame;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Cr3GUI {
+public class Cr3GUI 
+{
 
 	private JFrame frame;
 	private JTextField tx1;
@@ -25,23 +26,31 @@ public class Cr3GUI {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
+	public static void main(String[] args) 
+	{
+		EventQueue.invokeLater(new Runnable() 
+		{
+			public void run() 
+			{
+				try 
+				{
 					Cr3GUI window = new Cr3GUI();
 					window.frame.setVisible(true);
-				} catch (Exception e) {
+				}
+				catch (Exception e) 
+				{
 					e.printStackTrace();
 				}
 			}
-		});
+		}
+		);
 	}
 
 	/**
 	 * Create the application.
 	 */
-	public Cr3GUI() {
+	public Cr3GUI() 
+	{
 		initialize();
 	}
 
@@ -97,15 +106,27 @@ public class Cr3GUI {
 			{
 				String l = tx1.getText(); 
 				String m = tx2.getText();
+				String n = tx3.getText();
 				
-				DIS.setText("First name: "+ l +" Last name: "+ m);
+				DIS.setText("First name: "+ l +" Last name: "+ m + " Age: " + n);
 				
 			}
-		});
+		}
+		);
 		NB.setBounds(279, 61, 89, 23);
 		panel.add(NB);
 		
 		JButton NB1 = new JButton("Reset");
+		NB1.addActionListener(new ActionListener() 
+		{
+			public void actionPerformed(ActionEvent e) 
+			{
+				tx1.setText(" "); 
+				tx2.setText(" "); 
+				tx3.setText(" "); 
+			}
+		}
+		);
 		NB1.setBounds(279, 154, 89, 23);
 		panel.add(NB1);
 		
