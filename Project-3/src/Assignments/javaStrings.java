@@ -3,7 +3,7 @@ package Assignments;
 public class javaStrings 
 {
 	/*
-	Program: javaOperators.java          Date: April 19th 
+	Program: javaStrings.java          Date: April 19th 
 
 
 	Author: Naomi Lockerbie  
@@ -18,13 +18,18 @@ public class javaStrings
 		System.out.println(txt.toUpperCase());
 		String firstName = "John";
 		String lastName = "Doe"; 
-		String.out.println(firstName+lastName);
-		
+		System.out.println(firstName+lastName);
+		System.out.println(firstName.concat(lastName));
+		String txt2 = "Hello Everybody"; 
+		System.out.println(txt2.indexOf("e"));
 
 	}
 
 }
 /* Screen Dump
-50
-2
+5
+HELLO
+JohnDoe
+JohnDoe
+1
  */

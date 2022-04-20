@@ -20,11 +20,10 @@ public class javaDataTypes
 		//primitive data type 
 		double myDouble = 9.78d;
 		int myInt = (int)myDouble;
+		System.out.println(myNum+" "+myFloatNum+" "+myLetter+" "+myBool+" "+myText+" "+myDouble+" "+myInt);
 	}
 
 }
 /* Screen Dump
-15
-15
-61
+9 8.99 A false Hello World 9.78 9
  */
