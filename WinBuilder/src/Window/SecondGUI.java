@@ -13,7 +13,7 @@ import java.awt.event.ActionEvent;
 public class SecondGUI {
 
 	private JFrame frame;
-	private JTextField textField;
+	private JTextField td;
 
 	/**
 	 * Launch the application.
@@ -56,10 +56,14 @@ public class SecondGUI {
 		lblNewLabel.setBounds(10, 11, 79, 14);
 		panel.add(lblNewLabel);
 		
-		textField = new JTextField();
-		textField.setBounds(99, 8, 86, 20);
-		panel.add(textField);
-		textField.setColumns(10);
+		td = new JTextField();
+		td.setBounds(99, 8, 86, 20);
+		panel.add(td);
+		td.setColumns(10);
+		
+		JLabel Dis = new JLabel(" ");
+		Dis.setBounds(26, 128, 378, 59);
+		panel.add(Dis);
 		
 		JButton btnNewButton = new JButton("Enter");
 		btnNewButton.addActionListener(new ActionListener() 
@@ -68,25 +72,35 @@ public class SecondGUI {
 			{
 				String twoDigit = td.getText(); 
 				int twoD = Integer.parseInt(twoDigit); 
-				int firstD = twoD/10;
-				//int sum = 
+				int firstD = twoD/10; //record first digit 
+				int secondD = twoD%10; //record second digit
+				int sum = firstD+secondD;//record sum
+				int prdc = firstD*secondD;//record product
+				int check = sum+prdc;
+				//Dis.setText(""+sum);//display the special number
+				if(check==prdc) 
+				{
+					Dis.setText(twoD+" is a special two digit number");
+				}
+				else
+				{
+					Dis.setText(twoD+" is not a special two digit number");
+				}
 				
-				Dis.setText(""+firstD);
 			}
 		}
 		);
 		btnNewButton.setBounds(278, 7, 89, 23);
 		panel.add(btnNewButton);
 		
-		JLabel Dis = new JLabel("New label");
-		Dis.setBounds(26, 128, 378, 59);
-		panel.add(Dis);
 		
-		JButton btnNewButton_1 = new JButton("Enter");
+		
+		JButton btnNewButton_1 = new JButton("Reset");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
-				
+				td.setText("");
+				Dis.setText("");
 			}
 		});
 		btnNewButton_1.setBounds(278, 35, 89, 23);
