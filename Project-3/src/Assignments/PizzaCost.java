@@ -14,22 +14,17 @@ public class PizzaCost
 	
 
 	*/
-	public static void main(String[] args) 
-	{
-		Scanner myObj = new Scanner(System.in); 
-	    System.out.println("Enter an integer: ");
-	    int n1 = myObj.nextInt(); 
-	    int rem = n1%2; 
-	    if (rem==1)
-	    {
-	    	System.out.println("The integer "+n1+" is odd.");
-	    }
-	    else 
-	    {
-	    	System.out.println("The integer "+n1+" is even.");
-	    }
-	    
 
+
+public static void main(String[] args) 
+	{
+	    Scanner myObj = new Scanner(System.in);  
+	    System.out.println("Enter the Diameter of the Pizza in Whole Inches");
+	    int size = myObj.nextInt();
+	    		
+	    double cost = (size * size * 0.05) + 0.75 + 1.00;
+	    
+	    System.out.println("It costs $ " + cost); 
 	}
 
 }
