@@ -18,20 +18,18 @@ public class Assignment9
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
-	       System.out.println("Enter an integer");
-	       int x = input.nextInt();
-	       System.out.println("Enter a second integer");
-	       int y = input.nextInt();
-	       int div = x/y;
-	       int rem = x%y;
-	       int div2 = y/x; 
-	       int rem2 = y%x;
+	       System.out.println("Enter an integer");//asks you for an integer 
+	       int x = input.nextInt();//records integer 
+	       System.out.println("Enter a second integer");//asks for second integer
+	       int y = input.nextInt();//records second integer 
+	       int div = x/y;//divide x by y
+	       int rem = x%y;//find that remainder 
+	       int div2 = y/x; //divide y by x 
+	       int rem2 = y%x;//find that remainder
 	       System.out.print(x+" / "+y+" = "+div+"\r\n"
 	    		   +x+" % "+y+" = "+rem+"\r\n"
 	    		   +y+" / "+x+" = "+div2+"\r\n"
-	    		   +y+" % "+x+" = "+rem2);
-	       
-
+	    		   +y+" % "+x+" = "+rem2);//print all the equations and answers 
 	}
 
 }

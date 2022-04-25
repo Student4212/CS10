@@ -27,7 +27,7 @@ public class BingoCard
 				+ "14    27    39    54    65"
 				+ "\r\n"
 				+ "4     19    42    52    69"
-				+ "\r\n");
+				+ "\r\n");//displays bingo card 
 
 	}
 }

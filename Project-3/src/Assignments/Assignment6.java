@@ -15,21 +15,21 @@ public class Assignment6
 {
 		    public static void main(String args[])
 		    {
-		       Scanner input = new Scanner(System.in);
-		       System.out.println("What is your first name?");
-		       String firstName = input.nextLine();
-		       System.out.println("What is your last name?");
-		       String lastName = input.nextLine();
-		       System.out.println("What grade are you in?");
-		       int grade = input.nextInt();
-		       input.nextLine();
-		       System.out.println("What school do you attend?");		       
-		       String school = input.nextLine();
-		       System.out.println("What is your favorite hobby?");
-		       String hobby = input.nextLine();
+		       Scanner input = new Scanner(System.in);//allows you to ask questions 
+		       System.out.println("What is your first name?");//displays that question 
+		       String firstName = input.nextLine(); //Records answer 
+		       System.out.println("What is your last name?");//displays that question 
+		       String lastName = input.nextLine();//records answer 
+		       System.out.println("What grade are you in?");//displays that question 
+		       int grade = input.nextInt();//records answer 
+		       input.nextLine();//allows for next question 
+		       System.out.println("What school do you attend?");//displays that question 
+		       String school = input.nextLine();//records answer 
+		       System.out.println("What is your favorite hobby?");// displays that question 
+		       String hobby = input.nextLine();//records answer 
 		       System.out.println("Hello, your name is " + firstName + " " + lastName + 
 		    		   ", you are currently in grade " + grade + " at " + school + 
-		    		   ". Your favorite hobby is " + hobby + ".");
+		    		   ". Your favorite hobby is " + hobby + ".");//displays sentence with your personal information 
 		    }
 }
 /* Screen Dump

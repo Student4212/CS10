@@ -14,6 +14,7 @@ import javax.swing.UIManager;
 import javax.swing.JInternalFrame;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.DefaultComboBoxModel;
 
 public class Cr3GUI 
 {
@@ -21,7 +22,6 @@ public class Cr3GUI
 	private JFrame frame;
 	private JTextField tx1;
 	private JTextField tx2;
-	private JTextField tx3;
 
 	/**
 	 * Launch the application.
@@ -59,7 +59,7 @@ public class Cr3GUI
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 575, 417);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -86,29 +86,44 @@ public class Cr3GUI
 		panel.add(tx2);
 		tx2.setColumns(10);
 		
-		JLabel age = new JLabel("Age\r\n");
-		age.setBounds(42, 158, 84, 14);
-		panel.add(age);
+		JLabel grd = new JLabel("Grade\r\n");
+		grd.setBounds(42, 158, 84, 14);
+		panel.add(grd);
 		
-		tx3 = new JTextField();
-		tx3.setBounds(136, 158, 86, 20);
+		JComboBox tx3 = new JComboBox();
+		tx3.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
+		tx3.setBounds(136, 154, 86, 22);
 		panel.add(tx3);
-		tx3.setColumns(10);
 		
 		JLabel DIS = new JLabel("");
 		DIS.setBounds(15, 203, 379, 47);
 		panel.add(DIS);
+		
 		
 		JButton NB = new JButton("Submit");
 		NB.addActionListener(new ActionListener() 
 		{
 			public void actionPerformed(ActionEvent e) 
 			{
-				String l = tx1.getText(); 
-				String m = tx2.getText();
-				String n = tx3.getText();
+				String first = tx1.getText(); 
+				String last = tx2.getText();
+				int grade; 
 				
-				DIS.setText("First name: "+ l +" Last name: "+ m + " Age: " + n);
+				if(tx3.getSelectedItem().equals("10"))
+				{
+					grade = 10; 
+				}
+				else if(tx3.getSelectedItem().equals("11")) 
+				{
+					grade = 11; 
+				}
+				else 
+				{
+					grade = 12; 
+				}
+				
+				
+				DIS.setText("First name: "+ first +" Last name: "+ last + " Age: " + grade);
 				
 			}
 		}
@@ -123,18 +138,18 @@ public class Cr3GUI
 			{
 				tx1.setText(" "); 
 				tx2.setText(" "); 
-				tx3.setText(" "); 
+				
 			}
 		}
 		);
 		NB1.setBounds(279, 154, 89, 23);
 		panel.add(NB1);
 		
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setBounds(10, 208, 397, 42);
+		panel.add(lblNewLabel);
 		
 		
-		JTextArea textArea = new JTextArea();
-		textArea.setBackground(UIManager.getColor("Button.background"));
-		textArea.setBounds(10, 198, 414, 52);
-		panel.add(textArea);
+	
 	}
 }
