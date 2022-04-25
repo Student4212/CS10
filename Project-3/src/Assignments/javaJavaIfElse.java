@@ -1,7 +1,3 @@
-package Assignments;
-
-public class javaJavaIfElse 
-{
 	/*
 	Program: javaJavaIfElse.java          Date: April 20th 
 
@@ -10,6 +6,10 @@ public class javaJavaIfElse
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaJavaIfElse 
+{
 	public static void main(String[] args) 
 	{
 		int x = 50;

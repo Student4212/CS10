@@ -1,10 +1,4 @@
-package Assignments;
-
-import java.util.Scanner;
-
-public class Assignmnet8Part2 
-{
-	/*
+/*
 
 	Program: Assignmnet8Part2.java          Date: April 11th 
 
@@ -15,6 +9,12 @@ public class Assignmnet8Part2
 	
 
 	*/
+package Assignments;
+
+import java.util.Scanner;
+
+public class Assignmnet8Part2 
+{
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);

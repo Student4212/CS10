@@ -1,8 +1,4 @@
-package Assignments;
-
-public class javaSyntaxPracticeTask1 
-{
-	/*
+/*
 	Program: javaSyntaxPracticeTask1.java          Date: April 14th 
 
 
@@ -12,6 +8,10 @@ public class javaSyntaxPracticeTask1
 	
 
 	*/
+package Assignments;
+
+public class javaSyntaxPracticeTask1 
+{
 	public static void main(String[] args) 
 	{
 

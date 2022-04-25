@@ -1,8 +1,4 @@
-package Assignments;
-import java.util.Scanner;
-public class Coins 
-{
-	/*
+/*
 
 	Program: Coins.java          Date: April 8th 
 
@@ -13,6 +9,10 @@ public class Coins
 	
 
 	*/
+package Assignments;
+import java.util.Scanner;
+public class Coins 
+{
 	public static void main(String[] args) 
 	{
 		Scanner myObj = new Scanner(System.in); 

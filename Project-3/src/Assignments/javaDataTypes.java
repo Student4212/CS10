@@ -1,8 +1,4 @@
-package Assignments;
-
-public class javaDataTypes 
-{
-	/*
+/*
 	Program: javaDataTypes.java          Date: April 19th 
 
 
@@ -10,6 +6,10 @@ public class javaDataTypes
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaDataTypes 
+{
 	public static void main(String[] args) 
 	{
 		int myNum = 9;

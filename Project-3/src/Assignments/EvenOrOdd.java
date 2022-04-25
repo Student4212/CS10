@@ -1,10 +1,4 @@
-package Assignments;
-
-import java.util.Scanner;
-
-public class EvenOrOdd 
-{
-	/*
+/*
 
 	Program: EvenOrOdd.java          Date: April 21th 
 
@@ -15,6 +9,12 @@ public class EvenOrOdd
 	
 
 	*/
+package Assignments;
+
+import java.util.Scanner;
+
+public class EvenOrOdd 
+{
 	public static void main(String[] args) 
 	{
 			Scanner myObj = new Scanner(System.in); 

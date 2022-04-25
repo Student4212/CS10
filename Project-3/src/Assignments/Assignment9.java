@@ -1,21 +1,20 @@
 package Assignments;
 
+/*
+
+Program: Assignmnet9.java          Date: April 11th 
+
+
+Author: Naomi Lockerbie  
+School: CHHS
+Course: Computer Science 10
+
+
+*/
 import java.util.Scanner;
 
 public class Assignment9 
-{
-	/*
-
-	Program: Assignmnet9.java          Date: April 11th 
-
-
-	Author: Naomi Lockerbie  
-	School: CHHS
-	Course: Computer Science 10
-	
-
-	*/
-	
+{	
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);

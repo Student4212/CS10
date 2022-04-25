@@ -1,10 +1,4 @@
-package Assignments;
-import java.util.*;
-public class Assignment6 
-{
-
-
-		/*
+/*
 
 		Program: Assignmnet6.java          Date: April 7th 
 
@@ -15,8 +9,10 @@ public class Assignment6
 		
 
 		*/
-
-
+package Assignments;
+import java.util.*;
+public class Assignment6 
+{
 		    public static void main(String args[])
 		    {
 		       Scanner input = new Scanner(System.in);

@@ -1,8 +1,4 @@
-package Assignments;
-
-public class javaVariable 
-{
-	/*
+/*
 	Program: javaVariables.java          Date: April 19th 
 
 
@@ -10,6 +6,10 @@ public class javaVariable
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaVariable 
+{
 	public static void main(String[] args)
 	{
 		String carName = "Volvo"; 

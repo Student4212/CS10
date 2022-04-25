@@ -1,8 +1,4 @@
-package Assignments;
-
-public class javaOperators 
-{
-	/*
+/*
 	Program: javaOperators.java          Date: April 19th 
 
 
@@ -10,6 +6,11 @@ public class javaOperators
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaOperators 
+{
+	
 	public static void main(String[] args) 
 	{
 		System.out.println(10*5); 

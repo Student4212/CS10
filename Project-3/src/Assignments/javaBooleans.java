@@ -1,7 +1,3 @@
-package Assignments;
-
-public class javaBooleans 
-{
 	/*
 
 	Program: javaBooleans.java          Date: April 20th 
@@ -13,6 +9,10 @@ public class javaBooleans
 	
 
 	*/
+package Assignments;
+
+public class javaBooleans 
+{
 	public static void main(String[] args) 
 	{
 		boolean isJavaFun = true; 

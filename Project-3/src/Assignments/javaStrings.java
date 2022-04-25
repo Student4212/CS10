@@ -1,7 +1,3 @@
-package Assignments;
-
-public class javaStrings 
-{
 	/*
 	Program: javaStrings.java          Date: April 19th 
 
@@ -10,6 +6,10 @@ public class javaStrings
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaStrings 
+{
 	public static void main(String[] args) 
 	{
 		String greeting = "Hello"; 

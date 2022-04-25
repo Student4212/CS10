@@ -1,7 +1,3 @@
-package Assignments;
-
-public class javaMath 
-{
 	/*
 	Program: javaMath.java          Date: April 20th 
 
@@ -10,6 +6,10 @@ public class javaMath
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Assignments;
+
+public class javaMath 
+{
 	public static void main(String[] args) 
 	{
 		int x = 5; 

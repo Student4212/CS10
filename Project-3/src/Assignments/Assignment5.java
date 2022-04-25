@@ -1,8 +1,4 @@
-package Assignments;
-
-public class Assignment5 
-{
-	/*
+/*
 
 	Program: Assignment5.java          Date: April 6th 
 
@@ -13,6 +9,10 @@ public class Assignment5
 	
 
 	*/
+package Assignments;
+
+public class Assignment5 
+{
 	public static void main(String[] args) 
 	{
 		 int first = 79 + 3 * (4 + 82 - 68) - 7 +19;
