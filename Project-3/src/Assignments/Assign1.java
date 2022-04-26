@@ -1,10 +1,4 @@
-package Assignments;
-import java.util.*;
-public class Assign1 
-{
-
-
-		/*
+	/*
 
 		Program: BingoCard.java          Date: April 6th 
 
@@ -15,8 +9,10 @@ public class Assign1
 		
 
 		*/
-
-
+package Assignments;
+import java.util.*;
+public class Assign1 
+{
 		    public static void main(String args[])
 		    {
 		       Scanner input = new Scanner(System.in);

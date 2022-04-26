@@ -19,7 +19,7 @@ public class FromMeToYou
 				+ "Address: Acer Computer, Lab 314\r\n"
 				+ "Date: March 31, 2022\r\n"
 				+ "To: Naomi Lockerbie\r\n"
-				+ "Message: Help! I'm trapped inside a computer! ");
+				+ "Message: Help! I'm trapped inside a computer! ");//displays that text (\r\n means new line)
 
 	}
 

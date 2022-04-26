@@ -15,13 +15,13 @@ public class javaBooleans
 {
 	public static void main(String[] args) 
 	{
-		boolean isJavaFun = true; 
-		boolean isFishTasty = false; 
-		System.out.println(isJavaFun); 
-		System.out.println(isFishTasty);
-		int x = 10; 
-		int y = 9; 
-		System.out.println(x>y);
+		boolean isJavaFun = true; //defines variable as true 
+		boolean isFishTasty = false;//defines variable as false  
+		System.out.println(isJavaFun); //displays out the value of the first variable 
+		System.out.println(isFishTasty);//displays the value of the second variable 
+		int x = 10; //defines variable 
+		int y = 9; //defines variable 
+		System.out.println(x>y);//compares variables and prints if statement is true or not 
 	}
 
 }

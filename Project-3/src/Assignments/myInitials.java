@@ -20,7 +20,7 @@ public class myInitials
 				+ "   /  \\      /      |  \r\n"
 				+ "  /    \\    /       |  \r\n"
 				+ " /      \\  /        |  \r\n"
-				+ "/        \\/    O    |________ O \r\n");
+				+ "/        \\/    O    |________ O \r\n");//displays this (\\ means \)(\r\n means new line)
 
 	}
 

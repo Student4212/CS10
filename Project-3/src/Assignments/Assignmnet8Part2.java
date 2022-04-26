@@ -17,7 +17,7 @@ public class Assignmnet8Part2
 {
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner(System.in);//prepares scanner 
+		Scanner input = new Scanner(System.in);//creates new scanner 
 	       System.out.println("Enter a three digit number");//displays request 
 	       int number1 = input.nextInt();//stores number 
 	       int number2 = number1/100; //finds forst digit by dividing by 100, stores digit 

@@ -17,17 +17,17 @@ public class EvenOrOdd
 {
 	public static void main(String[] args) 
 	{
-			Scanner myObj = new Scanner(System.in); 
-		    System.out.println("Enter an integer: ");
-		    int n1 = myObj.nextInt(); 
-		    int rem = n1%2; 
-		    if (rem==1)
+			Scanner myObj = new Scanner(System.in); //creates new scanner 
+		    System.out.println("Enter an integer: ");//displays the request
+		    int n1 = myObj.nextInt(); //records response 
+		    int rem = n1%2; //calculates the remainder you get if you divide by two 
+		    if (rem==1)//compares it to one, if they are equal, proceed, if not, skip next step and go to else
 		    {
-		    	System.out.println("The integer "+n1+" is odd.");
+		    	System.out.println("The integer "+n1+" is odd.");//displays the integer and that it is odd 
 		    }
-		    else 
+		    else //skips next step if the remainder is equal to 1 
 		    {
-		    	System.out.println("The integer "+n1+" is even.");
+		    	System.out.println("The integer "+n1+" is even.");//displays integer and that it is even 
 		    }
 		    
 

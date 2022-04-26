@@ -12,13 +12,13 @@ public class javaMath
 {
 	public static void main(String[] args) 
 	{
-		int x = 5; 
-		int y = 10; 
-		Math.max(x, y);
-		int z = 16; 
-		Math.sqrt(z); 
-		Math.random();
-		System.out.println(x+" "+y+" "+Math.max(x, y)+" "+z+" "+Math.sqrt(z)+" "+Math.random());
+		int x = 5; //stores variable 
+		int y = 10; //stores variable 
+		Math.max(x, y);//finds the highest possible number of those two digits (10)
+		int z = 16; //stores variable 
+		Math.sqrt(z); //squares z 
+		Math.random();//chooses a random number 
+		System.out.println(x+" "+y+" "+Math.max(x, y)+" "+z+" "+Math.sqrt(z)+" "+Math.random());//prints all answers or examples of what the program did
 	}
 
 }

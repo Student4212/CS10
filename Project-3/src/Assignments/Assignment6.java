@@ -15,7 +15,7 @@ public class Assignment6
 {
 		    public static void main(String args[])
 		    {
-		       Scanner input = new Scanner(System.in);//allows you to ask questions 
+		       Scanner input = new Scanner(System.in);//creates new scanner  
 		       System.out.println("What is your first name?");//displays that question 
 		       String firstName = input.nextLine(); //Records answer 
 		       System.out.println("What is your last name?");//displays that question 

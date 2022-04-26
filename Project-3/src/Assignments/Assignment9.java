@@ -1,5 +1,3 @@
-package Assignments;
-
 /*
 
 Program: Assignmnet9.java          Date: April 11th 
@@ -11,13 +9,15 @@ Course: Computer Science 10
 
 
 */
+package Assignments;
+
 import java.util.Scanner;
 
 public class Assignment9 
 {	
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner(System.in);
+			Scanner input = new Scanner(System.in);//creates new scanner 
 	       System.out.println("Enter an integer");//asks you for an integer 
 	       int x = input.nextInt();//records integer 
 	       System.out.println("Enter a second integer");//asks for second integer

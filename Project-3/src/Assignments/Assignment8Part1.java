@@ -17,7 +17,7 @@ public class Assignment8Part1
 {
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in);
+			Scanner input = new Scanner(System.in);//creates new scanner  
 	       System.out.println("Enter a two digit number");//asks you for the number
 	       int number1 = input.nextInt();//records the number
 	       int number2 = number1/10; //finds first digit

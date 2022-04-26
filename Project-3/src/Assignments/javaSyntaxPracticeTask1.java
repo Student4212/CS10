@@ -20,7 +20,7 @@ public class javaSyntaxPracticeTask1
  This is a multi-line comment 
 */
 
-		System.out.println ("Hello World");
+		System.out.println ("Hello World");//displays text 
 
 	}
 
