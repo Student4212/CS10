@@ -18,7 +18,7 @@ public static void main(String[] args)
 	{
 	    Scanner myObj = new Scanner(System.in);  //creates new scanner 
 	    System.out.println("Enter the Diameter of the Pizza in Whole Inches");//displays request 
-	    int size = myObj.nextInt();//stores responce 
+	    int size = myObj.nextInt();//stores response 
 	    double cost = (size * size * 0.05) + 0.75 + 1.00;//does the math to find cost
 	    System.out.println("It costs $ " + cost); //prints the cost 
 	}
