@@ -5,10 +5,10 @@ public class javaSwitch
 
 	public static void main(String[] args) 
 	{
-		int day = 2;
+		int day = 2;//defines day as 2 
 		switch (day) 
 		{
-			case 1:
+			case 1: 
 				System.out.println("Saturday");
 				break;
 		  
