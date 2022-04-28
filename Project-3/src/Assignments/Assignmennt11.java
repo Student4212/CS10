@@ -54,3 +54,8 @@ public class Assignmennt11
 	}
 
 }
+/*Screen Dump
+Enter any three digits
+489
+Max: 9  Min: 4
+*/

@@ -62,3 +62,8 @@ public class Assignment12
 	}
 
 }
+/*Screen Dump
+Enter you grade as a percentage: 
+66
+The corresponding letter grade is: C+
+*/

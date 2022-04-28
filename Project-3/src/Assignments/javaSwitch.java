@@ -44,3 +44,7 @@ public class javaSwitch
 	}
 
 }
+/* Screen Dump
+Sunday
+Weekend
+ */
