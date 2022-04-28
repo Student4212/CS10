@@ -1,6 +1,6 @@
 /*
 
-	Program: Assignmennt11.java          Date: April 27th 
+	Program: Assignment11.java          Date: April 27th 
 
 
 	Author: Naomi Lockerbie  
@@ -9,9 +9,9 @@
 	
 
 	*/
-package Assignments;
+package Credit.five;
 import java.util.Scanner;
-public class Assignmennt11 
+public class Assignment11 
 {
 
 	public static void main(String[] args) 

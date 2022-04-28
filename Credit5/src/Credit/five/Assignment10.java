@@ -1,6 +1,6 @@
 /*
 
-	Program: EvenOrOdd.java          Date: April 21th 
+	Program: Assignment10.java          Date: April 21th 
 
 
 	Author: Naomi Lockerbie  
@@ -9,11 +9,11 @@
 	
 
 	*/
-package Assignments;
+package Credit.five;
 
 import java.util.Scanner;
 
-public class EvenOrOdd 
+public class Assignment10 
 {
 	public static void main(String[] args) 
 	{
@@ -36,8 +36,7 @@ public class EvenOrOdd
 }
 
 /* Screen Dump
-
-Enter Pizza Diameter in Whole Inches
-8
-It costs $4.95
+Enter an integer: 
+3
+The integer 3 is odd.
 */
