@@ -15,6 +15,7 @@ import javax.swing.JInternalFrame;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.*;
 
 public class Cr3GUI 
 {
@@ -22,6 +23,8 @@ public class Cr3GUI
 	private JFrame frame;
 	private JTextField tx1;
 	private JTextField tx2;
+	
+	ImageIcon img1 = new ImageIcon("../WinBuilder/src/Window/l2.jpg");
 
 	/**
 	 * Launch the application.
@@ -59,12 +62,12 @@ public class Cr3GUI
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 575, 417);
+		frame.setBounds(100, 100, 636, 464);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(0, 0, 434, 261);
+		panel.setBounds(0, 0, 610, 414);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -76,6 +79,14 @@ public class Cr3GUI
 		tx1.setBounds(136, 65, 86, 20);
 		panel.add(tx1);
 		tx1.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setBounds(10, 208, 397, 42);
+		panel.add(lblNewLabel);
+		
+		JLabel pic = new JLabel(" ");
+		pic.setBounds(24, 216, 272, 176);
+		panel.add(pic);
 		
 		JLabel LN = new JLabel("Last Name");
 		LN.setBounds(11, 112, 115, 14);
@@ -96,7 +107,7 @@ public class Cr3GUI
 		panel.add(tx3);
 		
 		JLabel DIS = new JLabel("");
-		DIS.setBounds(15, 203, 379, 47);
+		DIS.setBounds(405, 302, 178, 84);
 		panel.add(DIS);
 		
 		
@@ -112,6 +123,7 @@ public class Cr3GUI
 				if(tx3.getSelectedItem().equals("10"))
 				{
 					grade = 10; 
+					pic.setIcon(img1);
 				}
 				else if(tx3.getSelectedItem().equals("11")) 
 				{
@@ -145,9 +157,7 @@ public class Cr3GUI
 		NB1.setBounds(279, 154, 89, 23);
 		panel.add(NB1);
 		
-		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setBounds(10, 208, 397, 42);
-		panel.add(lblNewLabel);
+		
 		
 		
 	

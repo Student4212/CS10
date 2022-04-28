@@ -1,3 +1,14 @@
+/*
+
+	Program: javaSwitch.java          Date: April 27th 
+
+
+	Author: Naomi Lockerbie  
+	School: CHHS
+	Course: Computer Science 10
+	
+
+	*/
 package Assignments;
 
 public class javaSwitch 

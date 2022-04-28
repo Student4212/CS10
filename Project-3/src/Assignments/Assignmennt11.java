@@ -1,6 +1,6 @@
 /*
 
-	Program: Assignment11.java          Date: April 27th 
+	Program: Assignmennt11.java          Date: April 27th 
 
 
 	Author: Naomi Lockerbie  
