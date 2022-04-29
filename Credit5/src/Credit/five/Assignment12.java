@@ -9,7 +9,7 @@
 	
 
 	*/
-package Assignments;
+package Credit.five;
 
 import java.util.Scanner;
 
