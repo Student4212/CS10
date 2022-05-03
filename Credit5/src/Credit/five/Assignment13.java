@@ -26,7 +26,7 @@ public class Assignment13
 		{
 			single = 0.30f; //stores 0.30 as the value of single 
 		}
-		else if (num>=100 && num<=499)//if the number of copie/num does not fit the previous conditions and it is greater than or equal to 100 and less than or equal to 499, follow the instructions inside the bracket 
+		else if (num>=100 && num<=499)//if the number of copies/num does not fit the previous conditions and it is greater than or equal to 100 and less than or equal to 499, follow the instructions inside the bracket 
 		{
 			single = 0.28f; //stores 0.28 as the value of single 
 		}
