@@ -11,7 +11,7 @@
 	*/
 package Credit.five;
 
-import java.util.Scanner;
+import java.util.Scanner;//imports scanner 
 
 public class Assignment10 
 {

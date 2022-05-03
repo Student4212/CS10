@@ -24,6 +24,8 @@ public class Cr3GUI
 	private JTextField tx1;
 	private JTextField tx2;
 	
+	Cr3GUIVersion2 k = new Cr3GUIVersion2(); 
+	
 	ImageIcon img1 = new ImageIcon("../WinBuilder/src/Window/l2.jpg");
 
 	/**
@@ -107,7 +109,7 @@ public class Cr3GUI
 		panel.add(tx3);
 		
 		JLabel DIS = new JLabel("");
-		DIS.setBounds(405, 302, 178, 84);
+		DIS.setBounds(391, 208, 192, 178);
 		panel.add(DIS);
 		
 		
@@ -128,6 +130,7 @@ public class Cr3GUI
 				else if(tx3.getSelectedItem().equals("11")) 
 				{
 					grade = 11; 
+					k.set
 				}
 				else 
 				{

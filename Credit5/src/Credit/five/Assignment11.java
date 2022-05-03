@@ -38,6 +38,7 @@ public class Assignment11
 		{
 			min = third; //defines min as the value of third 
 		}
+		
 		if (second>first && second>third) //says that if first and third are smaller than second to follow the instructions in the curly bracket
 		{
 			max = second; //defines max as the value of second 
@@ -50,6 +51,7 @@ public class Assignment11
 		{
 			max = first; //defines max as the value of first  
 		}
+		
 		System.out.println("Max: "+max+"  Min: "+min);//prints out the value of min and the value of max and explains what they are 
 	}
 
