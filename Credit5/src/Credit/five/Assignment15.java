@@ -16,8 +16,11 @@ public class Assignment15
 
 	public static void main(String[] args) 
 	{
+		int firstRN = 1 + (int)(Math.random()*10);
+		System.out.println("First Random Number: "+firstRN); 
+		int secondRN = 1 + (int)(Math.random()*10);
+		System.out.println("Second Random Number: "+secondRN); 
 		
-
 	}
 
 }

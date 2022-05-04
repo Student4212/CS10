@@ -10,13 +10,15 @@
 
 	*/
 package Credit.five;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Assignment11 
 {
 
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner(System.in);//creates new scanner 
+		Scanner input = new Scanner(System.in);//creates new scanner
+		DecimalFormat dn = new DecimalFormat("0.0");
 		System.out.println("Enter any three digits");//asks you for the three digits
 		int all = input.nextInt();//records the three digits 
 		int first = all/100; //extracts the first digit by dividing by 100 
@@ -51,8 +53,16 @@ public class Assignment11
 		{
 			max = first; //defines max as the value of first  
 		}
+		int sum = first + second + third; 
+		int product = first * second * third; 
+		double average = ((double)(first + second + third) / (double)3);
 		
-		System.out.println("Max: "+max+"  Min: "+min);//prints out the value of min and the value of max and explains what they are 
+		System.out.println("The largest of the three digits is: "+max+
+				"\r\nThe smallest of the three digits is: "+min+
+				"\r\nThe sum of the three digits is: "+sum+
+				"\r\nThe product of the three digits is: "+product+
+				"\r\nThe average of the three digits is: "+ dn.format(average)
+				);//prints out the smallest digit, the largest digit, the sum of the digits, the product of the digits and the average of the digits and explains what they are 
 	}
 
 }
