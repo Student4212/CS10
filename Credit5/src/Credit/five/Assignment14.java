@@ -44,3 +44,8 @@ public class Assignment14
 	}
 
 }
+/*Screen Dump
+Enter the number of copies to be printed: 
+13
+teen
+*/
