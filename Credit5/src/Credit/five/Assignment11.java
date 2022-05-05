@@ -53,9 +53,9 @@ public class Assignment11
 		{
 			max = first; //defines max as the value of first  
 		}
-		int sum = first + second + third; 
-		int product = first * second * third; 
-		double average = ((double)(first + second + third) / (double)3);
+		int sum = first + second + third; //adds all three digits together and saves answer as sum 
+		int product = first * second * third; //Multiples all three digits together and saves answer as product
+		double average = ((double)(first + second + third) / (double)3);//adds all; three digits together and divides them by three to find the average, which itthen saves as average 
 		
 		System.out.println("The largest of the three digits is: "+max+
 				"\r\nThe smallest of the three digits is: "+min+
@@ -68,6 +68,10 @@ public class Assignment11
 }
 /*Screen Dump
 Enter any three digits
-489
-Max: 9  Min: 4
+892
+The largest of the three digits is: 9
+The smallest of the three digits is: 2
+The sum of the three digits is: 19
+The product of the three digits is: 144
+The average of the three digits is: 6.3
 */
