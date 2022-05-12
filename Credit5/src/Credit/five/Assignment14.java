@@ -19,7 +19,7 @@ public class Assignment14
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);//creates new scanner 
-		System.out.println("Enter the number of copies to be printed: "); //displays request that you enter your age
+		System.out.println("Enter your age: "); //displays request that you enter your age
 		int age = input.nextInt(); //Records answer as variable age
 		if (age>18)
 		{
