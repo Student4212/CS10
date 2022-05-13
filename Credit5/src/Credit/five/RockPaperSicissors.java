@@ -22,39 +22,39 @@ public class RockPaperSicissors
 		System.out.println("Enter rock paper or scissors: "); 
 		String player = input.nextLine(); 
 		String message = "Error, try entering again";		
-		if (player.equals("rock") && comp==1)
+		if (player.equalsIgnoreCase("rock") && comp==1)
 		{
 			message = "Computer: rock \r\nIt's a Tie";
 		}
-		else if (player.equals("paper") && comp==2)
+		else if (player.equalsIgnoreCase("paper") && comp==2)
 		{
 			message = "Computer: paper \r\nIt's a Tie";
 		}
-		else if (player.equals("scissors") && comp==3)
+		else if (player.equalsIgnoreCase("scissors") && comp==3)
 		{
 			message = "Computer: scissors \r\nIt's a Tie";
 		}
-		else if (player.equals("rock") && comp==2)
+		else if (player.equalsIgnoreCase("rock") && comp==2)
 		{
 			message = "Computer: paper \r\nYou lose!";
 		}
-		else if (player.equals("paper") && comp==3)
+		else if (player.equalsIgnoreCase("paper") && comp==3)
 		{
 			message = "Computer: scissors \r\nYou lose!";
 		}
-		else if (player.equals("scissors") && comp==1)
+		else if (player.equalsIgnoreCase("scissors") && comp==1)
 		{
 			message = "Computer: rock \r\nYou lose!";
 		}
-		else if (player.equals("rock") && comp==3)
+		else if (player.equalsIgnoreCase("rock") && comp==3)
 		{
 			message = "Computer: scissors \r\nYou win!";
 		}
-		else if (player.equals("paper") && comp==1)
+		else if (player.equalsIgnoreCase("paper") && comp==1)
 		{
 			message = "Computer: rock \r\nYou win!";
 		}
-		else if (player.equals("scissors") && comp==2)
+		else if (player.equalsIgnoreCase("scissors") && comp==2)
 		{
 			message = "Computer: paper \r\nYou win!";
 			
@@ -67,4 +67,12 @@ Choose rock paper or scissors:
 rock
 You: rock Computer: scissors 
 You win!
+
+OR 
+
+Enter rock paper or scissors: 
+Paper
+You: Paper
+Computer: paper 
+It's a Tie
 */
