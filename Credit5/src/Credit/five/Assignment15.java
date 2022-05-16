@@ -19,18 +19,18 @@ public class Assignment15
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);//creates new scanner
-		int firstRN = 1 + (int)(Math.random()*10);
-		int secondRN = 1 + (int)(Math.random()*10);
-		System.out.println("What is "+firstRN+"*"+secondRN+"?"); 
+		int firstRN = 1 + (int)(Math.random()*10);//generates a random number from 1-10 and stores as variable secondRN 
+		int secondRN = 1 + (int)(Math.random()*10);//generates a random number from 1-10 and stores as variable secondRN 
+		System.out.println("What is "+firstRN+"*"+secondRN+"?"); // asks you what the first number times the second number is 
 		int answer = input.nextInt(); //Records answer as variable answer 
-		int product = firstRN*secondRN; 
-		if (answer==product) 
+		int product = firstRN*secondRN; //calculates the first number times the second number and stores as variable product 
+		if (answer==product) //checks if your answer equals the product, if yes follow the instructions in the curly bracket 
 		{
-			System.out.println("You got it right! Congratulations!!"); 
+			System.out.println("You got it right! Congratulations!!"); //displays the text in quotes  
 		}
-		else 
+		else //if the following conditions were not true, follow the instructions in the curly bracket
 		{
-			System.out.println("You got it wrong. The correct answer was "+product); 
+			System.out.println("You got it wrong. The correct answer was "+product); //displays the text in quotes followed by the product of the two numbers 
 		}
 		
 	}

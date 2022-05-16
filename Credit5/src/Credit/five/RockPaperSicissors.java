@@ -17,9 +17,12 @@ public class RockPaperSicissors
 
 	public static void main(String[] args) 
 	{
+		String one = "play";
+		while (one.equalsIgnoreCase("play")) 
+		{
 		Scanner input = new Scanner(System.in);//creates new scanner
 		int comp = 1 + (int)(Math.random()*3);
-		System.out.println("Enter rock paper or scissors: "); 
+		System.out.println("\r\nEnter rock paper or scissors: "); 
 		String player = input.nextLine(); 
 		String message = "Error, try entering again";		
 		if (player.equalsIgnoreCase("rock") && comp==1)
@@ -59,7 +62,11 @@ public class RockPaperSicissors
 			message = "Computer: paper \r\nYou win!";
 			
 		}
-		System.out.println("You: "+player+"\r\n"+message);
+		System.out.println("You: "+player+"\r\n"+message+"\r\n\r\n"
+			+ "Enter play to continue playing or anything else to exit the program.");
+		one = input.nextLine();
+		}
+		System.out.println("\r\nYou have exited the program. Have a good day and come back soon!");
 	}
 }
 /*Screen Dump
