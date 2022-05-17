@@ -17,7 +17,7 @@ public class Assignment10
 {
 	public static void main(String[] args) 
 	{
-			Scanner myObj = new Scanner(System.in); //creates new scanner 
+		    Scanner myObj = new Scanner(System.in); //creates new scanner 
 		    System.out.println("Enter an integer: ");//displays the request
 		    int n1 = myObj.nextInt(); //records response 
 		    int rem = n1%2; //calculates the remainder you get if you divide by two 
