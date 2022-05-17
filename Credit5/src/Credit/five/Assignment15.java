@@ -17,7 +17,7 @@ public class Assignment15
 {
 
 	public static void main(String[] args) 
-	{//1
+	{
 		Scanner input = new Scanner(System.in);//creates new scanner
 		int firstRN = 1 + (int)(Math.random()*10);//generates a random number from 1-10 and stores as variable secondRN 
 		int secondRN = 1 + (int)(Math.random()*10);//generates a random number from 1-10 and stores as variable secondRN 
@@ -36,3 +36,8 @@ public class Assignment15
 	}
 
 }
+/*Screen Dump
+What is 9*10?
+90
+You got it right! Congratulations!!
+*/

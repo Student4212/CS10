@@ -1,3 +1,14 @@
+/*
+
+	Program: Assignment17.java          Date: May 17th 
+
+
+	Author: Naomi Lockerbie  
+	School: CHHS
+	Course: Computer Science 10
+	
+
+	*/
 package Credit.five;
 
 import java.text.DecimalFormat;
