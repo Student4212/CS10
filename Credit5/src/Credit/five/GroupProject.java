@@ -9,24 +9,24 @@ public class GroupProject
 			String one = "play";
 			while (one=="play")
 			{
-			Scanner input = new Scanner(System.in);//creates new scanner
-			int comp = 1 + (int)(Math.random()*3);//genterates a random number from 1-3 and stores that number as variable comp
-			System.out.println("\r\nEnter rock paper or scissors: "); //asks you to enter rock paper or scissors
-			String player = input.nextLine(); //records your answer as variable player
-			String message = "Error";//creates variable message and gives it a value of Error
-			if (player.equalsIgnoreCase("rock") && comp==1)//says if the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 1, follow the instructions inside the bracket
+			Scanner input = new Scanner(System.in);
+			int comp = 1 + (int)(Math.random()*3);
+			System.out.println("\r\nEnter rock paper or scissors: ");
+			String player = input.nextLine();
+			String message = "Error";
+			if (player.equalsIgnoreCase("rock") && comp==1)
 			{
 				message = "Computer: rock \r\nIt's a Tie";
 			}
-			else if (player=="paper" && comp==2)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to paper (capitalization doesn't matter) and the value of comp is 2, follow the instructions inside the bracket
+			else if (player=="paper" && comp==2)
 			{
 				message = "Computer: paper \r\nIt's a Tie";
 			}
-			else if (player=="scissors" && comp==3)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to scissors (capitalization doesn't matter) and the value of comp is 3, follow the instructions inside the bracket
+			else if (player=="scissors" && comp==3)
 			{
 				message = "Computer: scissors \r\nIt's a Tie";
 			}
-			else if (player=="rock" && comp==2)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 2, follow the instructions inside the bracket
+			else if (player=="rock" && comp==2)
 			{
 				message = "Computer: paper \r\nYou lose!";
 			}
@@ -34,7 +34,7 @@ public class GroupProject
 			{
 				message = "Computer: scissors \r\nYou lose!";
 			}
-			else if (player.equalsIgnoreCase("scissors") && comp==1)
+			else if (player=="scissors" && comp==1)
 			{
 				message = "Computer: rock \r\nYou lose!";
 			}
@@ -42,7 +42,7 @@ public class GroupProject
 			{
 				message = "Computer: scissors \r\nYou win!";
 			}
-			else if (player.equalsIgnoreCase("paper") && comp==1)
+			else if (player=="paper" && comp==1)
 			{
 				message = "Computer: rock \r\nYou win!";
 			}
