@@ -27,59 +27,47 @@ public class RockPaperSicissors
 		String message = "Error";//creates variable message and gives it a value of Error
 		if (player.equalsIgnoreCase("rock") && comp==1)//says if the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 1, follow the instructions inside the bracket
 		{
-			message = "Computer: rock \r\nIt's a Tie";
+			message = "Computer: rock \r\nIt's a Tie";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("paper") && comp==2)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to paper (capitalization doesn't matter) and the value of comp is 2, follow the instructions inside the bracket
 		{
-			message = "Computer: paper \r\nIt's a Tie";
+			message = "Computer: paper \r\nIt's a Tie";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("scissors") && comp==3)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to scissors (capitalization doesn't matter) and the value of comp is 3, follow the instructions inside the bracket
 		{
-			message = "Computer: scissors \r\nIt's a Tie";
+			message = "Computer: scissors \r\nIt's a Tie";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("rock") && comp==2)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 2, follow the instructions inside the bracket
 		{
-			message = "Computer: paper \r\nYou lose!";
+			message = "Computer: paper \r\nYou lose!";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("paper") && comp==3)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to paper (capitalization doesn't matter) and the value of comp is 3, follow the instructions inside the bracket
 		{
-			message = "Computer: scissors \r\nYou lose!";
+			message = "Computer: scissors \r\nYou lose!";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("scissors") && comp==1)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to scissors (capitalization doesn't matter) and the value of comp is 1, follow the instructions inside the bracket 
 		{
-			message = "Computer: rock \r\nYou lose!";
+			message = "Computer: rock \r\nYou lose!";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("rock") && comp==3)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 3, follow the instructions inside the bracket
 		{
-			message = "Computer: scissors \r\nYou win!";
+			message = "Computer: scissors \r\nYou win!";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("paper") && comp==1)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to paper (capitalization doesn't matter) and the value of comp is 1, follow the instructions inside the bracket 
 		{
-			message = "Computer: rock \r\nYou win!";
+			message = "Computer: rock \r\nYou win!";//gives variable message a new value of what is in the quotes
 		}
 		else if (player.equalsIgnoreCase("scissors") && comp==2)//says if the numbers haven't fit any of the previous criteria AND the value of player is equal to scissors (capitalization doesn't matter) and the value of comp is 2, follow the instructions inside the bracket
 		{
-			message = "Computer: paper \r\nYou win!";
-			
+			message = "Computer: paper \r\nYou win!";//gives variable message a new value of what is in the quotes
 		}
 		System.out.println("You: "+player+"\r\n"+message+"\r\n\r\n"
-			+ "Enter play to continue playing or anything else to exit the program.");
-		one = input.nextLine();
-		}
-		System.out.println("\r\nYou have exited the program. Have a good day and come back soon!");
+			+ "Enter play to continue playing or anything else to exit the program.");//displays prompt
+		one = input.nextLine();//stores responce to prompt as one 
+		}//end of loop, start again at top and check the criteria 
+		System.out.println("\r\nYou have exited the program. Have a good day and come back soon!");//displays text 
 	}
 }
 /*Screen Dump
-Choose rock paper or scissors: 
-rock
-You: rock Computer: scissors 
-You win!
 
-OR 
-
-Enter rock paper or scissors: 
-Paper
-You: Paper
-Computer: paper 
-It's a Tie
 */
