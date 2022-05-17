@@ -24,7 +24,7 @@ public class RockPaperSicissors
 		int comp = 1 + (int)(Math.random()*3);//genterates a random number from 1-3 and stores that number as variable comp
 		System.out.println("\r\nEnter rock paper or scissors: "); //asks you to enter rock paper or scissors
 		String player = input.nextLine(); //records your answer as variable player
-		String message = "Error, try entering again";//creates variable message and gives it a value of 0
+		String message = "Error";//creates variable message and gives it a value of Error
 		if (player.equalsIgnoreCase("rock") && comp==1)//says if the value of player is equal to rock (capitalization doesn't matter) and the value of comp is 1, follow the instructions inside the bracket
 		{
 			message = "Computer: rock \r\nIt's a Tie";

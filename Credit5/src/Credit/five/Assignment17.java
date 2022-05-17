@@ -12,7 +12,7 @@ public class Assignment17
 		Scanner input = new Scanner(System.in); //creates new scanner 
 		DecimalFormat df = new DecimalFormat("0.00"); //sets up decimals to be too two points
 		System.out.println("Please enter a GPA or enter -1 to quit the program: ");//asks you to enter a gpa or to enter -1 to quit 
-		double gpa = input.nextDouble(); //record the number as a double (numbher with decimals) called gpa 
+		double gpa = input.nextDouble(); //record the number as a double (number with decimals) called gpa 
 		while (gpa != -1)//if gpa is not equal to -1, go through instructions in curly bracket, if it is, skip to end of loop 
 		{
 		

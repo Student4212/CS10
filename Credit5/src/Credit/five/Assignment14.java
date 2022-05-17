@@ -17,7 +17,7 @@ public class Assignment14
 {
 
 	public static void main(String[] args) 
-	{//2:15PM
+	{
 		Scanner input = new Scanner(System.in);//creates new scanner 
 		System.out.println("Enter your age: "); //displays request that you enter your age
 		int age = input.nextInt(); //Records answer as variable age
