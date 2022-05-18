@@ -13,7 +13,7 @@ package Credit.five;
 
 public class javaSwitch 
 {
-//a
+
 	public static void main(String[] args) 
 	{
 		int day = 2;//defines day as 2 
