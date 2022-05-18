@@ -70,4 +70,40 @@ public class RockPaperSicissors
 }
 /*Screen Dump
 
+Enter rock paper or scissors: 
+paper
+You: paper
+Computer: scissors 
+You lose!
+
+Enter play to continue playing or anything else to exit the program.
+play
+
+Enter rock paper or scissors: 
+rock
+You: rock
+Computer: rock 
+It's a Tie
+
+Enter play to continue playing or anything else to exit the program.
+play
+
+Enter rock paper or scissors: 
+scissors
+You: scissors
+Computer: rock 
+You lose!
+
+Enter play to continue playing or anything else to exit the program.
+play
+
+Enter rock paper or scissors: 
+s
+You: s
+Error
+
+Enter play to continue playing or anything else to exit the program.
+a
+
+You have exited the program. Have a good day and come back soon!
 */
